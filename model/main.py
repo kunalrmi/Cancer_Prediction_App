@@ -3,7 +3,6 @@ import pandas as pd
 def get_clean_data():
     data = pd.read_csv('data/data.csv')
     print(data.head())
-    print(data.info())
     return data
 
 def main():
